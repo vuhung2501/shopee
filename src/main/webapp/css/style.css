@@ -1,0 +1,45 @@
+
+/*Header*/
+.header {
+	overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 20px 10px;
+}
+
+.header a{
+	float: left;
+	color: #000;
+	text-align: center;
+	padding: 12px;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.header a.logo {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.header-right {
+	float: right;
+}
+
+.header a:hover {
+	background-color: rgb(0, 128, 255);
+	color: #fff;
+	
+}
+
+/*Footer*/
+
+.footer {
+	position: fixed;
+	left: 0;
+	border: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+	color: #000;
+	text-align: center;
+}
